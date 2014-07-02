@@ -1,4 +1,4 @@
 redditbot
 =========
 
-just a reddit bot
+A simple python reddit bot made with PRAW.
