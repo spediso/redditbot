@@ -21,7 +21,7 @@ while True:
 
  
     for comment in subreddit_comments:
-            #change hello and reply to what you want to search for and reply with
+            #change hello and world! to what you want to search for and reply with
             if comment.body == 'Hello' and comment.id not in already_done:
                comment.reply('world!')
                already_done.add(comment.id)
